@@ -1,0 +1,32 @@
+#footer{
+	/*position: relative;
+	height: 240px;
+	margin-top: -240px;
+	clear: both;*/
+	background-color: #2e2e2e;
+	color: lightgrey;	
+	/*font-weight: bold;*/
+}
+
+#footer-content{
+	display: flex;
+	padding: 15px 0px;
+}
+
+#footer-logo,#footer-about,#footer-contact{
+	flex: 1;
+	padding-left: 100px;
+	line-height: 30px;
+}
+
+#copywrite{
+	padding: 10px 0px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#foot{
+	text-decoration: none;
+	color: lightgrey;
+}

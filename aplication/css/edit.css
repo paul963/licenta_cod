@@ -1,0 +1,72 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+.edit{
+	columns: 2;
+	width: 40%;
+	padding-left: 435px;
+}
+
+.editarea{
+	text-align: center;
+	font-size: 40px;
+	padding: 60px 0; 
+}
+
+.editare{
+	padding-left: 160px;
+	line-height: 60px;
+	font-size: 20px;
+}
+
+.cell{
+	padding: 12px 20px;
+	margin: 8px 0;
+	color: grey;
+	border: 1px solid #ed8c24;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+.cell[name="cantitate"]{
+	color: black;
+	border: 1px solid #ed8c24;
+}
+
+.button{
+	column-span: all;
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 200px;
+	background: lightgrey;
+	color: black;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+.button:hover{
+	cursor: pointer;
+	background: #ed8c24;
+}
+
+.alert{
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	height: 55px;  
+	background-color: #87CEFA;
+	z-index: 1;
+}
+
+.allert{
+	padding-left: 650px;
+	padding-top: 15px;
+	color: #191970;
+	font-size: 20px;
+	font-weight: bold;
+}
