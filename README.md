@@ -1,1 +1,1 @@
-# licenta_cod
+# Application for bachelor degree licence
